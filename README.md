@@ -83,3 +83,22 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 🔹 Provides 24/7 mental health support with emotion-aware AI.
 🔹 Works without internet dependency, making it useful globally.
 🔹 Scalable for counseling centers, therapy apps, or chatbot services.
+
+
+## Emotional-Support-App/
+│── backend/
+│   ├── main.py                 # FastAPI backend
+│   ├── models.py               # ML models (BERT/RoBERTa, FAISS)
+│   ├── database.py             # FAISS/ChromaDB for storing responses
+│   ├── websocket.py            # WebSocket handling for real-time chat
+│   ├── requirements.txt        # Backend dependencies
+│── frontend/
+│   ├── app.py                  # Streamlit frontend UI
+│   ├── components.py           # UI components for chat
+│   ├── requirements.txt        # Frontend dependencies
+│── data/
+│   ├── responses.json          # Predefined responses for RAG
+│── models/
+│   ├── sentiment_model.pt      # Trained Sentiment Analysis Model
+│── README.md                   # Project documentation
+│── run.sh                      # Shell script to start backend and frontend
