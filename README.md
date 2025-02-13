@@ -8,13 +8,13 @@ Mental health support is often expensive, inaccessible, and unavailable in real 
 
 The Emotional Support & Wellness Web App provides AI-driven, real-time emotional assistance by analyzing user sentiment and responding with context-aware guidance. Unlike traditional chatbots, which rely on pre-set responses, this system uses Retrieval-Augmented Generation (RAG) with FAISS indexing to deliver dynamic, meaningful, and highly relevant responses.
 
-Core Functionalities:
+## Core Functionalities:
 
 ✅ Real-time emotional support with instant AI-generated responses.
-✅ Emotion-aware chatbot using sentiment analysis (BERT/RoBERTa)
+✅ Emotion-aware chatbot using sentiment analysis (BERT/RoBERTa).
 ✅ No external API dependency, ensuring offline capability.
 ✅ Personalized user experience with historical context retention.
-✅ Secure and scalable architecture that can support thousands of users
+✅ Secure and scalable architecture that can support thousands of users.
 
 ## 3. Data Structures & Algorithms Used
 
