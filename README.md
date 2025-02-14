@@ -1,79 +1,93 @@
 ## Emotional Support & Wellness Web App
 
-## 1.Problem Statement
 
-Mental health support is often expensive, inaccessible, and unavailable in real time. Many individuals struggle with stress, anxiety, and emotional distress but do not have access to professional help due to financial constraints, location barriers, or stigma around seeking therapy. This app aims to bridge that gap by offering AI-driven real-time emotional support that is scalable, private, and accessible anytime, anywhere.
+## 🌿 Overview
 
-## 2. Proposed Solution & Approach
+The Emotional Support and Wellness Web App is designed to provide users with AI-driven mental health support, wellness tracking, and emotional assistance. This platform integrates Retrieval-Augmented Generation (RAG) and NLP models to enhance user experience, offering personalized recommendations and interactive chatbot assistance.
 
-The Emotional Support & Wellness Web App provides AI-driven, real-time emotional assistance by analyzing user sentiment and responding with context-aware guidance. Unlike traditional chatbots, which rely on pre-set responses, this system uses Retrieval-Augmented Generation (RAG) with FAISS indexing to deliver dynamic, meaningful, and highly relevant responses.
+## 🔍 Problem Statement
 
-## Core Functionalities:
+Mental health support is often inaccessible, and many individuals struggle to find immediate emotional assistance. Traditional therapy can be expensive, and self-help resources are not always personalized. Our goal is to bridge this gap by providing an AI-powered emotional support system that offers instant, empathetic, and context-aware responses.
 
-✅ Real-time emotional support with instant AI-generated responses.
-✅ Emotion-aware chatbot using sentiment analysis (BERT/RoBERTa).
-✅ No external API dependency, ensuring offline capability.
-✅ Personalized user experience with historical context retention.
-✅ Secure and scalable architecture that can support thousands of users.
+## 💡 Solution
 
-## 3. Data Structures & Algorithms Used
+This web app leverages AI-driven sentiment analysis, NLP models, and contextual memory to create a chatbot capable of providing meaningful emotional support. By integrating ChromaDB for past conversation tracking and ChatGroq for AI-generated responses, the platform ensures users receive relevant and personalized support.
 
-To ensure optimal performance and efficiency, the app integrates various DSA techniques and optimizations:
-1. Sentiment Analysis & Emotion Detection
-Algorithm Complexity: O(n) (tokenization + BERT inference)
-Approach: Uses BERT/RoBERTa to classify emotions such as happiness, sadness, anxiety, or stress based on user input.
-Optimization: Sentence embeddings via SentenceTransformers to speed up inference.
+## 🚀 Current Progress
 
-2. Retrieval-Augmented Generation (RAG) for Context-Aware Responses
-Algorithm Complexity: O(log n) (FAISS nearest neighbor search)
-Approach: The system retrieves the most relevant past conversations or knowledge snippets before generating a response using NLP models.
-Optimization: Uses FAISS (Facebook AI Similarity Search) to efficiently fetch relevant context before text generation.
+## ✅ Features Implemented
 
-3. Real-Time WebSocket Communication
-Algorithm Complexity: O(1) per message (constant time processing)
-Approach: Uses FastAPI with WebSockets to ensure low-latency, bidirectional communication between the user and AI chatbot.
-Optimization: Implements asynchronous message handling to avoid bottlenecks.
+FastAPI Backend: Built a backend API using FastAPI for handling chatbot interactions.
 
-4. Trie-Based Query Optimization
+AI Chatbot Integration: Implemented a chatbot using LangChain and ChatGroq for emotional support.
 
-Algorithm Complexity: O(m), where m is the length of the query
-Approach: Uses a Trie data structure to store and match commonly used emotional queries efficiently.
-Optimization: Reduces search time for keyword-based responses.
+Sentiment Analysis: AI analyzes user messages as Positive, Neutral, or Negative.
 
-## 4. Tech Stack Overview
-The app is designed with a high-performance, scalable, and efficient architecture, utilizing cutting-edge technologies:
+ChromaDB for Contextual Responses: Stores and retrieves past conversations for improved response generation.
 
-Frontend:streamlit: Lightweight and interactive UI framework for seamless user experience.
+Streamlit Frontend: Developed a simple UI for user interactions with the chatbot.
 
-Backend:FastAPI: High-performance, async-based web framework for handling WebSockets and API requests.
-WebSockets: Enables real-time bidirectional messaging between users and the AI.
+Basic API Endpoints: Implemented routes for chatbot communication and sentiment analysis.
 
-Machine Learning Models:BERT/RoBERTa: For sentiment analysis and emotional classification.
-RAG with FAISS: Enhances chatbot responses by retrieving relevant knowledge before response generation.
+## 🧞‍♂️ How It Works
 
-Database & Storage:
-FAISS/ChromaDB: Local vector storage for fast retrieval of relevant responses without needing external APIs.
-SQLite/PostgreSQL: Stores user interactions and chat history for improved personalization.
+User Inputs a Message: The frontend sends a message to the backend API.
 
-Libraries & Frameworks:PyTorch, Transformers (for model inference and training)
-SentenceTransformers, Scikit-learn, NLTK (for NLP processing)
+Sentiment Analysis: The AI determines the sentiment of the message.
 
-## 5. Scalability & Performance Optimization
-This AI-powered wellness app is designed to handle thousands of users efficiently.
+Response Generation: Based on sentiment, an appropriate response is generated.
 
-Key Scalability Features:
-FAISS Indexing: Enables ultra-fast similarity searches for response retrieval.
-Asynchronous Processing: Ensures fast responses and prevents API request bottlenecks.
-Cloud-Deployable or Offline-Ready: Can be hosted on local servers, cloud platforms, or even edge devices.
-Efficient WebSockets Implementation: Low-latency messaging supports real-time interaction at scale.
+Context Handling with ChromaDB: Past messages are checked for similarity to improve replies.
 
-## 6. Impact & Real-World Use Cases
+Response Displayed: The frontend displays the AI-generated response with sentiment.
 
-This application has the potential to make a significant positive impact in the mental health space:
+## 💜 Impact
 
-🌍 Global Accessibility: Works offline, making it suitable for regions with limited internet access.🤖 AI-Powered Therapy Assistance: Augments traditional therapy by providing instant emotional support.🏥 Integration with Healthcare Systems: Can be embedded into hospitals and counseling centers for automated mental wellness checks.📱 Scalable for Corporate & Education Sectors: Can be used by companies to support employee mental health or by educational institutions for student wellness.
+Instant Emotional Support: Users receive immediate responses, reducing stress and anxiety.
 
-## 7. Conclusion
+Personalized Interaction: AI adapts to user emotions for better engagement.
+
+Encouraging Mental Wellness: Provides an accessible platform for emotional well-being.
+
+## Scalability: Can be expanded to support multiple languages and integrate with mental health professionals.
+
+🚀 Upcoming Features & Work in Progress
+
+Enhanced AI Model: Improving chatbot responses with better emotion detection.
+
+User Authentication & Profiles: Allowing users to save their conversation history.
+
+Mood Tracking Dashboard: Graphical representation of emotional trends over time.
+
+Community Support Feature: Anonymous discussion forums for mental health support.
+
+Secure & Private Conversations: Implementing encryption for user data protection.
+
+## 🛠️ Tech Stack
+
+Frontend: Streamlit (UI for chatbot interactions)
+
+Backend: FastAPI
+
+AI/ML: LangChain, ChatGroq (LLM), Sentiment Analysis
+
+Database: ChromaDB (for storing chat history)
+
+Deployment: GitHub
+
+## 📌 Next Steps
+
+Fixing existing errors in chatbot responses.
+
+Enhancing AI-driven emotional support.
+
+Refining frontend UI for a smoother experience.
+
+Implementing user authentication and saving chat history.
+
+🛠️ Note: The project is still in development, and the current repository primarily showcases work in progress.
+
+## Conclusion
 
 This AI-driven Emotional Support & Wellness Web App is an innovative and scalable solution to address the growing need for affordable and accessible mental health support. By leveraging advanced NLP, real-time sentiment analysis, and RAG-based response generation, this app can provide meaningful, emotion-aware interactions without relying on external APIs. With low-latency performance, offline capabilities, and scalability, it is an ideal tool for improving mental well-being on a global scale.
 
@@ -84,13 +98,14 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 🔹 Works without internet dependency, making it useful globally.
 🔹 Scalable for counseling centers, therapy apps, or chatbot services.
 
+This application has the potential to make a significant positive impact in the mental health space.
+
 
 ## Emotional-Support-App/
 │── backend/
 │   ├── main.py                 # FastAPI backend
 │   ├── models.py               # ML models (BERT/RoBERTa, FAISS)
 │   ├── database.py             # FAISS/ChromaDB for storing responses
-│   ├── websocket.py            # WebSocket handling for real-time chat
 │   ├── requirements.txt        # Backend dependencies
 │── frontend/
 │   ├── app.py                  # Streamlit frontend UI
