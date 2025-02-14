@@ -90,6 +90,9 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 
 ![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521)
 
+![image](https://github.com/user-attachments/assets/b843b9d0-6d93-4eb4-8bb6-7f60b6f10f07)
+
+
 This application has the potential to make a significant positive impact in the mental health space.
 
 
