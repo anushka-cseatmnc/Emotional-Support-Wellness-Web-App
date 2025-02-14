@@ -86,6 +86,8 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 🔹 Provides 24/7 mental health support with emotion-aware AI.
 🔹 Works without internet dependency, making it useful globally.
 🔹 Scalable for counseling centers, therapy apps, or chatbot services.
+
+
 ![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521)
 
 This application has the potential to make a significant positive impact in the mental health space.
