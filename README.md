@@ -47,17 +47,6 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 4. **Context Handling with ChromaDB** → Past interactions refine responses.
 5. **Response Displayed** → AI-generated response shown in frontend.
 
----
-
-## 💜 Impact
-✔ Instant Emotional Support → Reduces stress & anxiety with immediate AI interaction.
-✔ Personalized Engagement → AI adapts responses based on user sentiment.
-✔ Encouraging Mental Wellness → Offers an accessible, AI-driven well-being platform.
-✔ Scalability → Expandable to multiple languages & professional mental health integrations.
-
-![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521) 
----
-
 ## 🔥 Upcoming Features & Work in Progress
 - **Enhanced AI Model:** More refined emotion detection.
 - **User Authentication & Profiles:** Saving user conversation history.
@@ -97,6 +86,7 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 🔹 Provides 24/7 mental health support with emotion-aware AI.
 🔹 Works without internet dependency, making it useful globally.
 🔹 Scalable for counseling centers, therapy apps, or chatbot services.
+![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521)
 
 This application has the potential to make a significant positive impact in the mental health space.
 
