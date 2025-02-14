@@ -87,9 +87,6 @@ This AI-driven Emotional Support & Wellness Web App is an innovative and scalabl
 🔹 Works without internet dependency, making it useful globally.
 🔹 Scalable for counseling centers, therapy apps, or chatbot services.
 
-
-![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521)
-
 ![image](https://github.com/user-attachments/assets/b843b9d0-6d93-4eb4-8bb6-7f60b6f10f07)
 
 
@@ -115,5 +112,6 @@ This application has the potential to make a significant positive impact in the 
 
 ## 🛠️ Note
 inspiration - https://www.tranquilmind.ai/post/ai-powered-wellness-tools-mental-health
+![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521)
 
 The project is still in development, and the current repository primarily showcases work in progress.
