@@ -17,29 +17,40 @@ This web app leverages AI-driven sentiment analysis, NLP models, and contextual 
 
 ## ✅ Features Implemented
 
-FastAPI Backend: Built a backend API using FastAPI for handling chatbot interactions.
+## FastAPI Backend:
+- Built a backend API using FastAPI for handling chatbot interactions.
 
-AI Chatbot Integration: Implemented a chatbot using LangChain and ChatGroq for emotional support.
+## AI Chatbot Integration
+-Implemented a chatbot using LangChain and ChatGroq for emotional support.
 
-Sentiment Analysis: AI analyzes user messages as Positive, Neutral, or Negative.
+## Sentiment Analysis
+-AI analyzes user messages as Positive, Neutral, or Negative.
 
-ChromaDB for Contextual Responses: Stores and retrieves past conversations for improved response generation.
+## ChromaDB for Contextual Responses
+-Stores and retrieves past conversations for improved response generation.
 
-Streamlit Frontend: Developed a simple UI for user interactions with the chatbot.
+## Streamlit Frontend
+Developed a simple UI for user interactions with the chatbot.
 
-Basic API Endpoints: Implemented routes for chatbot communication and sentiment analysis.
+## Basic API Endpoints
+Implemented routes for chatbot communication and sentiment analysis.
 
 ## 🧞‍♂️ How It Works
 
-User Inputs a Message: The frontend sends a message to the backend API.
+## User Inputs a Message
+The frontend sends a message to the backend API.
 
-Sentiment Analysis: The AI determines the sentiment of the message.
+## Sentiment Analysis
+The AI determines the sentiment of the message.
 
-Response Generation: Based on sentiment, an appropriate response is generated.
+## Response Generation
+Based on sentiment, an appropriate response is generated.
 
-Context Handling with ChromaDB: Past messages are checked for similarity to improve replies.
+## Context Handling with ChromaDB
+Past messages are checked for similarity to improve replies.
 
-Response Displayed: The frontend displays the AI-generated response with sentiment.
+## Response Displayed
+The frontend displays the AI-generated response with sentiment.
 
 ## 💜 Impact
 
