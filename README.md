@@ -111,5 +111,6 @@ This application has the potential to make a significant positive impact in the 
 │── run.sh                      # Shell script to start backend and frontend
 
 ## 🛠️ Note
+inspiration - https://www.tranquilmind.ai/post/ai-powered-wellness-tools-mental-health
 
 The project is still in development, and the current repository primarily showcases work in progress.
