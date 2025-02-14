@@ -50,10 +50,11 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 ---
 
 ## 💜 Impact
-✔ **Instant Emotional Support** → Reduces stress & anxiety with immediate AI interaction.
-✔ **Personalized Engagement** → AI adapts responses based on user sentiment.
-✔ **Encouraging Mental Wellness** → Offers an accessible, AI-driven well-being platform.
-✔ **Scalability** → Expandable to multiple languages & professional mental health integrations.
+✔ Instant Emotional Support → Reduces stress & anxiety with immediate AI interaction.
+✔ Personalized Engagement → AI adapts responses based on user sentiment.
+✔ Encouraging Mental Wellness → Offers an accessible, AI-driven well-being platform.
+✔ Scalability → Expandable to multiple languages & professional mental health integrations.
+
 ![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521) 
 ---
 
