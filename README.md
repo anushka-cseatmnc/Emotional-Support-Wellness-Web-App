@@ -2,8 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/39440fc0-602d-45eb-ae0a-47e9b8bf680d)
 
-## RAG + ML + Sentiment Analysis
-
+## RAG + Gen AI + Sentiment Analysis
+ 
 ## 🌿 Overview
 
 The Emotional Support and Wellness Web App is designed to provide users with AI-driven mental health support, wellness tracking, and emotional assistance. This platform integrates Retrieval-Augmented Generation (RAG) and NLP models to enhance user experience, offering personalized recommendations and interactive chatbot assistance.
