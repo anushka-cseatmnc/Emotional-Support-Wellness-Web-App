@@ -1,6 +1,6 @@
 ## Emotional Support & Wellness Web App
 
-![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521) ![image](https://github.com/user-attachments/assets/39440fc0-602d-45eb-ae0a-47e9b8bf680d)
+![image](https://github.com/user-attachments/assets/39440fc0-602d-45eb-ae0a-47e9b8bf680d)
 
 
 
@@ -54,7 +54,7 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 ✔ **Personalized Engagement** → AI adapts responses based on user sentiment.
 ✔ **Encouraging Mental Wellness** → Offers an accessible, AI-driven well-being platform.
 ✔ **Scalability** → Expandable to multiple languages & professional mental health integrations.
-
+![image](https://github.com/user-attachments/assets/fd9bcf72-5237-49f3-86ba-c396c0200521) 
 ---
 
 ## 🔥 Upcoming Features & Work in Progress
