@@ -3,18 +3,6 @@
 ![image](https://github.com/user-attachments/assets/39440fc0-602d-45eb-ae0a-47e9b8bf680d)
 
 ## RAG + Gen AI + Sentiment Analysis
- 
-## 🌿 Overview
-
-The Emotional Support and Wellness Web App is designed to provide users with AI-driven mental health support, wellness tracking, and emotional assistance. This platform integrates Retrieval-Augmented Generation (RAG) and NLP models to enhance user experience, offering personalized recommendations and interactive chatbot assistance.
-
-## 🔍 Problem Statement
-
-Mental health support is often inaccessible, and many individuals struggle to find immediate emotional assistance. Traditional therapy can be expensive, and self-help resources are not always personalized. Our goal is to bridge this gap by providing an AI-powered emotional support system that offers instant, empathetic, and context-aware responses.
-
-## 💡 Solution
-
-This web app leverages AI-driven sentiment analysis, NLP models, and contextual memory to create a chatbot capable of providing meaningful emotional support. By integrating ChromaDB for past conversation tracking and ChatGroq for AI-generated responses, the platform ensures users receive relevant and personalized support.
 
 # 🌿 Emotional Support & Wellness Web App
 
