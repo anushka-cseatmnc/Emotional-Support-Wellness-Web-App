@@ -38,8 +38,6 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 4. **Context Handling with ChromaDB** → Past interactions refine responses.
 5. **Response Displayed** → AI-generated response shown in frontend.
 
-   ![diagram-export-5-28-2025-1_34_33-PM](https://github.com/user-attachments/assets/ad243fa1-5ec4-4462-9736-9f86160100c5)
-
 
 ## 🔥 Upcoming Features & Work in Progress
 - **Enhanced AI Model:** More refined emotion detection.
