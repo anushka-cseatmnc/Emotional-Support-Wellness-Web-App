@@ -26,9 +26,6 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 - **Streamlit Frontend:** Interactive UI for chatbot interactions.
 - **Basic API Endpoints:** Implemented routes for communication and sentiment analysis.
 
-  ![diagram-export-5-28-2025-1_36_02-PM](https://github.com/user-attachments/assets/8ba04056-d8c2-4027-b3e0-3b5084ef86bb)
-
-
 ---
 
 ## 🧞‍♂️ How It Works
@@ -54,8 +51,6 @@ This app integrates **sentiment analysis, contextual memory (ChromaDB), and AI-d
 - **AI/ML:** LangChain, ChatGroq (LLM), Sentiment Analysis
 - **Database:** ChromaDB (Chat history storage)
 - **Deployment:** GitHub
-- 
-  ![diagram-export-5-28-2025-1_33_11-PM](https://github.com/user-attachments/assets/0fdcf49d-65e6-45c5-b37a-d6ace6bc81bc)
 
 
 ---
