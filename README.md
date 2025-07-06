@@ -241,10 +241,3 @@ Integrated M.Tech AI | VIT Bhopal
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-- Code of conduct
-- Development setup
-- Pull request process
-- Issue reporting
