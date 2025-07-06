@@ -1,4 +1,4 @@
-## Emotional Support & Wellness Web App
+## 🌱 Emotional Support & Wellness Web App
 
 *"Everyone deserves emotional support and understanding - accessible anytime, anywhere."*
 
