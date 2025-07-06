@@ -219,9 +219,6 @@ Ask: *"How can I manage my stress better?"*
 
 **Be supported. Be understood. Be emotionally healthy.**
 
-![Architecture Diagram](https://github.com/user-attachments/assets/b843b9d0-6d93-4eb4-8bb6-7f60b6f10f07)
-
-
 ## 🌍 Impact:
 🔹 Provides 24/7 mental health support with emotion-aware AI.
 🔹 Works without internet dependency, making it useful globally.
