@@ -33,10 +33,16 @@ Our app solves this with:
 
 ## 🧠 Technical Architecture
 
+![image](https://github.com/user-attachments/assets/f7d2f35d-cba1-4594-b11e-6feccaa59d6b)
+
+
 ### Data Flow
 ```
 User Input → Document Retrieval → LLM Processing → Empathetic Response
 ```
+
+![image](https://github.com/user-attachments/assets/a8c426b1-6524-4b8f-8d9c-91c9d1cef618)
+
 
 ### Core Components
 
