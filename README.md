@@ -225,6 +225,36 @@ Ask: *"How can I manage my stress better?"*
 
 **Be supported. Be understood. Be emotionally healthy.**
 
+
+Of course! Here’s a simplified and cleaner version of your deployment and model selection explanation. It keeps things clear and professional without sounding overly technical:
+
+---
+
+### Why This App Can’t Be Deployed on Free Cloud Tiers
+
+Although this project runs completely offline and doesn’t depend on external APIs, it requires a GPU, enough memory, and persistent storage to work properly. Free cloud platforms like Render, Hugging Face Spaces, Heroku, or AWS Free Tier don’t provide enough resources to host this app. Here's why:
+
+- **GPU is Required**: Even with compression, the Mistral 7B model still needs a GPU for fast, stable responses. Free services don’t offer this.
+- **Not Enough RAM**: Running the model and ChromaDB together needs –16 GB RAM, far more than the ~1 GB free tiers allow.
+- **Storage Limitations**: The model weights (~4GB) and vector database (~5–10 GB) won’t fit within the tiny storage limits of free hosting plans.
+- **Slow and Unreliable**: Free tiers often pause idle apps or limit connections, causing delays and breaking the experience for users needing emotional support.
+
+### 💡 Why I Didn’t Use a Smaller Language Model
+- Smaller models (like 1B–3B) were tested but didn’t perform well.
+- They couldn’t handle emotional context accurately or give empathetic responses.
+- They also struggled in combining retrieved information from documents, which is key in a RAG setup.
+
+> That’s why I chose the 7B model—it gives better, safer, and more human-like support without relying on cloud APIs.
+
+### Live Demo & System Walkthrough
+
+To demonstrate the app’s capabilities without requiring live hosting, a recorded demo video is provided. It includes:
+- Full walkthrough of the codebase
+- Explanation of the system architecture
+- Discussion of scalability considerations
+- Identification of bottlenecks and trade-offs
+📌 Watch the Demo Video
+
 ## 🌍 Impact:
 🔹 Provides 24/7 mental health support with emotion-aware AI.
 🔹 Works without internet dependency, making it useful globally.
